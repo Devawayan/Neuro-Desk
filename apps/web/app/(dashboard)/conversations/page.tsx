@@ -1,9 +1,9 @@
 const Page = () => {
     return (
         <div>
-            Only auth and org can see me!!
+            Conversations
         </div>
-    );
+    ); 
 }
 
 export default Page;
