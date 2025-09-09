@@ -19,10 +19,10 @@ export const resolveConversation = createTool({
             threadId: ctx.threadId,
             message: {
                 role: "assistant",
-                content: "Conversation resolved.",
+                content: "Issue resolved. Thanks for stopping by!",
             }
         });
 
-        return "Conversation resolved";
+        return "Issue resolved. Thanks for stopping by!";
     },
 });
